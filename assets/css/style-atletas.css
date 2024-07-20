@@ -1,3 +1,56 @@
-body{
-    background-color: aqua;
+@charset "UTF-8";
+
+/* Importando font de luta */
+@font-face {
+    font-family: 'fightFont';
+    src: url('/fonts/fontFight.ttf');
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Declarando variáveis */
+:root{
+    --color1: #F01610;
+    --color2: #585E73;
+    --color3: #23232e;
+}
+
+
+
+
+#bodyy{
+    color: var(--color2);
+    background-color: #b2b3b7;
+}
+
+#logo{
+    font-family: 'fightFont', sans-serif,serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#title{
+    font-family: 'fightFont', sans-serif,serif;
+    font-size: 5.25em;
+    font-weight: normal;
+}
+
+.itens{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#subtitulo{
+    font-size: 1.25em;
+    color: black;
+    font-family: system-ui, -apple-system,Arial, sans-serif;
 }

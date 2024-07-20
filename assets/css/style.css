@@ -20,127 +20,23 @@
 
 /* Configurando coisas */
 #bodyy{
-    background-color: rgb(152, 151, 151);
+    background-color: #b2b3b7;;
     color: var(--color2);
 }
 
 
-a:hover{
-    opacity: 0.7;
-}
-
 #title{
     font-family: 'fightFont', sans-serif,serif;
-    font-size: 6em;
+    font-size: 5em;
     font-weight: normal;
 }
 
 #logo{
     font-family: 'fightFont', sans-serif,serif;
-    font-size: 24px;
+    font-size: 30px;
     text-transform: uppercase;
 
 }
-
-/*Navbar*/
-
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system,Arial, sans-serif;
-    background-color: #23232e;
-    height: 8vh;
-    color: (var(--color2));
-}
-
-nav>a{
-    color: var(--color2);
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.nav-list{
-    list-style: none;
-    display: flex;
-}
-
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-    text-decoration: none;
-}
-
-.mobile-menu{
-    display: none;
-    cursor: pointer;
-}
-
-.mobile-menu div{
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
-    transition: 0.3s;
-}
-
-.mobile-menu div a {
-    text-decoration: none;
-
-}
-
-@media (max-width: 999px) {
-    body {
-        overflow-x: hidden;
-    }
-    .nav-list {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background: #23232e;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-      }
-      .nav-list li {
-        margin-left: 0;
-        opacity: 0;
-      }
-      .mobile-menu {
-        display: block;
-      }
-}
-
-.nav-list.active {
-    transform: translateX(0);
-  }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-  }
-  
-  .mobile-menu.active .line2 {
-    opacity: 0;
-  }
-  
-  .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
-  }
   
 .itens{
     text-decoration: none;
@@ -151,4 +47,10 @@ nav>a{
     width: 100%;
     text-align: center;
     margin-top: 40px;
+}
+
+#subtitulo{
+    font-size: 1.25em;
+    color: black;
+    font-family: system-ui, -apple-system,Arial, sans-serif;
 }
