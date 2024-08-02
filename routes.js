@@ -13,5 +13,10 @@ route.get('/atletas/',atletasController.controller);
 //Rota Página Olimpídas
 route.get('/olimpiadas/',olimpiadasController.controller);
 
+//Rota leandro Lo
+route.get('/leandroLo/',(req,res) =>{
+    res.render('leandroLo')
+})
+
 //Declarando o modulo com as rotas
 module.exports = route;

@@ -1,0 +1,33 @@
+#title{
+    margin-bottom: 30px;
+}
+
+.atletas{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    color: white;
+}
+
+button{
+    background-color:  rgb(147, 29, 29); /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem sublinhado */
+    display: inline-block; /* Exibição em linha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 12px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); /* Sombra externa */
+    margin: 10px;
+}
+
+li.pindamonhagaba{
+    margin: 20px;
+    list-style-type: circle;
+}

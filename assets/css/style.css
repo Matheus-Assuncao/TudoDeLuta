@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+
+/* Importando font atletas */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
 /* Importando font de luta */
 @font-face {
     font-family: 'fightFont';
@@ -49,6 +54,7 @@
     width: 100%;
     text-align: center;
     margin-top: 40px;
+
 }
 
 #subtitulo{
