@@ -16,4 +16,4 @@ app.use(routes);
 
 //Usando porta teste
 app.listen(8080)
-console.log('atualizei a pagina')
+console.log('Usando porta 8080')

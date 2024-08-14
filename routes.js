@@ -1,17 +1,20 @@
 const express = require('express');
 const route = express.Router();
-const homeController = require('./controllers/homeController');
-const atletasController = require('./controllers/atletasController');
-const olimpiadasController = require('./controllers/olimpiadasController');
 
 //Rota da HomePage
-route.get('/',homeController.controller);
+route.get('/',(req,res)=>{
+    res.render('index')
+});
 
 //Rota Página de atletas
-route.get('/atletas/',atletasController.controller);
+route.get('/atletas/',(req,res)=>{
+    res.render('atletas')
+});
 
 //Rota Página Olimpídas
-route.get('/olimpiadas/',olimpiadasController.controller);
+route.get('/olimpiadas/',(req,res)=>{
+    res.render('olimpiadas')
+});
 
 //Rota leandro Lo
 route.get('/leandroLo/',(req,res) =>{
